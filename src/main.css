@@ -1,0 +1,23 @@
+.App{
+    display: grid;
+    grid-template-areas: 
+    'nav nav nav'
+    '. content .';
+ 
+}
+.content{
+    grid-area: content;
+    margin: 80px auto;
+    width: 100%;
+}
+ .form {
+
+     box-shadow: 0 1px 3px 0 #d4d4d5,
+     0 0 0 1px #d4d4d5;
+     padding: 20px;
+    border-radius: 10px;}
+    .ui.card {
+        margin: 1em auto;
+        width: 80% !important;
+
+    }
